@@ -1,0 +1,107 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #212121;
+}
+
+.activeLED{
+    background-color: red !Important;
+    opacity: 1;
+    box-shadow: 0px 0px 20px red;
+}
+
+.activeSwitch{
+    top: 15px !Important;
+    box-shadow: 8px -8px 5px black !Important;
+}
+
+.box{
+    width: 250px;
+    height: 400px;
+    background-color: saddlebrown;
+    margin: Calc(50vh - 200px) Calc(50vw - 125px);
+    box-shadow: 5px 5px 0px black;
+}
+
+.divider{
+    background-color: black;
+    height: 1px;
+    opacity: .4;
+    
+}
+
+.title{
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.toggle{
+    padding: 2px 110px;
+}
+
+.toggle_circle{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    
+    opacity: .6;
+    border-radius: 50%;
+}
+
+.toggle_switch{
+    background-color: silver;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+    position: relative;
+    top: -5px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 5px black;
+}
+
+.topHalf{
+    height: 200px;
+}
+
+.label{
+    text-align: center;
+    color: black;
+    padding: 2px 0px;
+}
+
+.led{
+    position: relative;
+    top: 0px;
+    left: 120px;
+    background-color: darkred;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
