@@ -105,3 +105,11 @@ body{
     height: 10px;
     border-radius: 50%;
 }
+
+p{
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    opacity: .8
+}
