@@ -25,6 +25,15 @@ h6 {
   padding: 0;
 }
 
+.arm{
+    width: 10px;
+    height: 50px;
+    position: relative;
+    left: 120px;
+    top: 10px;
+    background-color: black
+}
+
 body{
     background-color: #212121;
 }
@@ -43,7 +52,7 @@ body{
 .box{
     width: 250px;
     height: 400px;
-    background-color: saddlebrown;
+    background-color: red;
     margin: Calc(50vh - 200px) Calc(50vw - 125px);
     box-shadow: 5px 5px 0px black;
 }
@@ -87,6 +96,8 @@ body{
 
 .topHalf{
     height: 200px;
+    background-color: saddlebrown;
+    opacity: 1;
 }
 
 .label{
@@ -112,4 +123,16 @@ p{
     font-family: sans-serif;
     font-weight: 100;
     opacity: .8
+}
+
+.bottomHalf{
+    height: 198px;
+}
+
+.bottomLid{
+    position: relative;
+    top: -50px;
+    height: 198px;
+    background-color: saddlebrown;
+    opacity: 0.5;
 }
