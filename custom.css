@@ -52,7 +52,7 @@ body{
 .box{
     width: 250px;
     height: 400px;
-    background-color: red;
+    background-color: black;
     margin: Calc(50vh - 200px) Calc(50vw - 125px);
     box-shadow: 5px 5px 0px black;
 }
@@ -132,7 +132,27 @@ p{
 .bottomLid{
     position: relative;
     top: -50px;
-    height: 198px;
+    height: 200px;
     background-color: saddlebrown;
-    opacity: 0.5;
+    opacity: 1;
+}
+
+.armAnimationClass{
+    animation: armAnimation;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes armAnimation {
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: -15px;
+    }
+    100%{
+        top: 10px;
+    }
 }
