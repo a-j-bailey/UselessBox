@@ -137,7 +137,7 @@ p{
     opacity: 1;
 }
 
-.armAnimation1{
+.armAnimationClass{
     animation: armAnimation;
     animation-iteration-count: 1;
     animation-delay: .5s;
@@ -158,13 +158,31 @@ p{
 }
 
 .toggleAnimation1{
-    animation: armAnimation;
+    animation: toggleAnimation;
     animation-iteration-count: 1;
-    animation-duration: s;
+    animation-duration: .2s;
     animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
-@keyframes toggleAnimation1{
-    top: 15px !Important;
-    box-shadow: 8px -8px 5px black !Important;
+.toggleAnimation2{
+    animation: toggleAnimation;
+    animation-iteration-count: 1;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+
+@keyframes toggleAnimation{
+    0%{
+        top: -5px;
+        box-shadow: 8px 8px 5px black;
+    }
+    100%{
+        top: 15px;
+        box-shadow: 8px -8px 5px black;
+    }
+    
 }
