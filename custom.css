@@ -137,7 +137,7 @@ p{
     opacity: 1;
 }
 
-.armAnimationClass{
+.armAnimation1{
     animation: armAnimation;
     animation-iteration-count: 1;
     animation-delay: .5s;
@@ -155,4 +155,16 @@ p{
     100%{
         top: 10px;
     }
+}
+
+.toggleAnimation1{
+    animation: armAnimation;
+    animation-iteration-count: 1;
+    animation-duration: s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes toggleAnimation1{
+    top: 15px !Important;
+    box-shadow: 8px -8px 5px black !Important;
 }
